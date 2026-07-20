@@ -306,7 +306,7 @@ export default function Home() {
 
   return (
     <>
-      {/* 🌸 カスタムカーソル（桜のベクター形状 ＆ スピン演出） */}
+      {/* 🌸 カスタムカーソル */}
       <div
         className={`custom-cursor ${isHovered ? "cursor-hover" : ""}`}
         style={{
@@ -315,7 +315,6 @@ export default function Home() {
         }}
       >
         <svg viewBox="0 0 100 100" fill="currentColor" width="100%" height="100%">
-          {/* 美しい5弁の桜の花びらパス */}
           <path d="M50,35 C50,35 44,17 44,10 C44,7 46.5,5 50,8 C53.5,5 56,7 56,10 C56,17 50,35 50,35 Z M61,42 C61,42 77,32 83.5,29.5 C86.5,28.5 89,30.5 88.5,34 C88,37.5 85,39 80,41 C75,43 61,42 61,42 Z M57,55 C57,55 70,68 74.5,74 C76.5,77 75,80 71.5,80.5 C68,81 65.5,78 62.5,73 C59.5,68 57,55 57,55 Z M43,55 C43,55 30,68 25.5,74 C23.5,77 25,80 28.5,80.5 C32,81 34.5,78 37.5,73 C40.5,68 43,55 43,55 Z M39,42 C39,42 23,32 16.5,29.5 C13.5,28.5 11,30.5 11.5,34 C12,37.5 15,39 20,41 C25,43 39,42 39,42 Z"/>
           <circle cx="50" cy="50" r="3.5" fill="#ffffff" opacity="0.85"/>
         </svg>
@@ -341,7 +340,7 @@ export default function Home() {
         {/* Hero */}
         <section className="hero">
           <Image
-            src="/imgi_14_main_img01.jpg"
+            src="/sakura_demo/imgi_14_main_img01.jpg"
             alt="SAKURA SUITE"
             fill
             priority
@@ -352,7 +351,7 @@ export default function Home() {
 
           <div className="hero-content">
             <Image
-              src="/imgi_1_logo.png"
+              src="/sakura_demo/imgi_1_logo.png"
               alt="Logo"
               width={140}
               height={140}
@@ -424,7 +423,7 @@ export default function Home() {
               <div className="gallery-card">
                 <div className="img-container">
                   <Image
-                    src="/imgi_15_main_img02.jpg"
+                    src="/sakura_demo/imgi_15_main_img02.jpg"
                     alt="Sakura Suite Architecture"
                     width={900}
                     height={600}
@@ -441,7 +440,7 @@ export default function Home() {
               <div className="gallery-card">
                 <div className="img-container">
                   <Image
-                    src="/imgi_16_main_img03.jpg"
+                    src="/sakura_demo/imgi_16_main_img03.jpg"
                     alt="Sakura Suite Relaxation"
                     width={900}
                     height={600}
@@ -458,7 +457,7 @@ export default function Home() {
               <div className="gallery-card">
                 <div className="img-container">
                   <Image
-                    src="/imgi_2_cont_item_top_01.jpg"
+                    src="/sakura_demo/imgi_2_cont_item_top_01.jpg"
                     alt="Sakura Suite Hospitality"
                     width={900}
                     height={600}
@@ -496,7 +495,7 @@ export default function Home() {
             <div className="room-grid">
               <div className="room-card">
                 <Image
-                  src="/imgi_14_main_img01.jpg"
+                  src="/sakura_demo/imgi_14_main_img01.jpg"
                   alt="Suite"
                   width={1200}
                   height={800}
@@ -512,7 +511,7 @@ export default function Home() {
 
               <div className="room-card">
                 <Image
-                  src="/imgi_15_main_img02.jpg"
+                  src="/sakura_demo/imgi_15_main_img02.jpg"
                   alt="Deluxe"
                   width={1200}
                   height={800}
@@ -528,7 +527,7 @@ export default function Home() {
 
               <div className="room-card">
                 <Image
-                  src="/imgi_16_main_img03.jpg"
+                  src="/sakura_demo/imgi_16_main_img03.jpg"
                   alt="Standard"
                   width={1200}
                   height={800}
@@ -597,7 +596,7 @@ export default function Home() {
             <div className="insta-grid">
               <div className="insta-box" style={{ position: 'relative', overflow: 'hidden' }}>
                 <Image
-                  src="/s_001.jpg"
+                  src="/sakura_demo/s_001.jpg"
                   alt="Instagram 1"
                   width={600}
                   height={600}
@@ -606,7 +605,7 @@ export default function Home() {
               </div>
               <div className="insta-box" style={{ position: 'relative', overflow: 'hidden' }}>
                 <Image
-                  src="/s_002.jpg"
+                  src="/sakura_demo/s_002.jpg"
                   alt="Instagram 2"
                   width={600}
                   height={600}
@@ -615,7 +614,7 @@ export default function Home() {
               </div>
               <div className="insta-box" style={{ position: 'relative', overflow: 'hidden' }}>
                 <Image
-                  src="/s_003.jpg"
+                  src="/sakura_demo/s_003.jpg"
                   alt="Instagram 3"
                   width={600}
                   height={600}
@@ -624,7 +623,7 @@ export default function Home() {
               </div>
               <div className="insta-box" style={{ position: 'relative', overflow: 'hidden' }}>
                 <Image
-                  src="/s_004.jpg"
+                  src="/sakura_demo/s_004.jpg"
                   alt="Instagram 4"
                   width={600}
                   height={600}
@@ -633,7 +632,7 @@ export default function Home() {
               </div>
               <div className="insta-box" style={{ position: 'relative', overflow: 'hidden' }}>
                 <Image
-                  src="/s_005.jpg"
+                  src="/sakura_demo/s_005.jpg"
                   alt="Instagram 5"
                   width={600}
                   height={600}
@@ -642,7 +641,7 @@ export default function Home() {
               </div>
               <div className="insta-box" style={{ position: 'relative', overflow: 'hidden' }}>
                 <Image
-                  src="/s_006.jpg"
+                  src="/sakura_demo/s_006.jpg"
                   alt="Instagram 6"
                   width={600}
                   height={600}
@@ -672,7 +671,7 @@ export default function Home() {
               <div className="access-info-card">
                 <div className="hotel-image-wrapper">
                   <Image
-                    src="/imgi_16_main_img03.jpg"
+                    src="/sakura_demo/imgi_16_main_img03.jpg"
                     alt="ホテル サクラスイート大阪"
                     width={800}
                     height={450}
